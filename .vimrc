@@ -1,0 +1,1 @@
+command Pwd echo expand('%')
