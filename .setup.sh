@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# if there isn't a vimrc make one 
+if [ ! -f "$dest_vimrc" ]; then
+    touch "$dest_vimrc"
+fi
+
 # Path to the original and the one to merge
 ORIGINAL_VIMRC="$HOME/.vimrc"
 MERGE_VIMRC="$HOME/myvim/.vimrc"
