@@ -1,3 +1,4 @@
-# setup
+# make scripts executable 
 
-make sure `setup.sh` is executable `chmod +x setup.sh`
+`chmod +x setup.sh`
+`chmod +x ssh.sh`
