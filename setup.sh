@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # if there isn't a vimrc make one 
+dest_vimrc="$HOME/.vimrc"
+
 if [ ! -f "$dest_vimrc" ]; then
     touch "$dest_vimrc"
 fi
